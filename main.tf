@@ -32,7 +32,7 @@ variable "params" {
     { name= "roboshop.dev.payment.cart_port", value="8080",type= "String" },
     { name= "roboshop.dev.payment.user_port", value="8080",type= "String" },
 #shipping
-    { name= "roboshop.dev.shipping.cart_host", value="cart-dev.devopsawschinni.online",type= "String" },
+    { name= "roboshop.dev.shipping.cart_host", value="cart-dev.devopsawschinni.online:8080",type= "String" },
     { name= "roboshop.dev.shipping.mysql_host", value="mysql-dev.devopsawschinni.online",type= "String" },
 #user
     { name= "roboshop.dev.user.redis_host", value="redis-dev.devopsawschinni.online",type= "String" },
