@@ -28,7 +28,7 @@ variable "params" {
     { name= "roboshop.dev.payment.rabbitmq_host", value="cart-dev.devopsawschinni.online",type= "String" },
     { name= "roboshop.dev.payment.user_host", value="cart-dev.devopsawschinni.online",type= "String" },
     { name= "roboshop.dev.payment.rabbitmq_user", value="roboshop",type= "String" },
-    { name= "roboshop.dev.payment.rabbitmq_password", value="roboshop123",type= "String" },
+    { name= "roboshop.dev.payment.rabbitmq_password", value="roboshop123",type= "SecureString" },
     { name= "roboshop.dev.payment.cart_port", value="8080",type= "String" },
     { name= "roboshop.dev.payment.user_port", value="8080",type= "String" },
 #shipping
