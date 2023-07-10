@@ -51,13 +51,10 @@ variable "params" {
     { name = "roboshop.dev.frontend.cart_url", value = "http://cart-dev.devopsawschinni.online/", type = "String" },
     { name = "roboshop.dev.frontend.payment_url", value = "http://payment-dev.devopsawschinni.online/", type = "String" },
     { name = "roboshop.dev.frontend.shipping_url", value = "http://shipping-dev.devopsawschinni.online/", type = "String" },
-
     { name = "roboshop.dev.cart.redis_host", value = "elasticache-dev.nud0cy.clustercfg.use1.cache.amazonaws.com", type = "String" },
     { name = "roboshop.dev.cart.catalogue_host", value = "catalogue-dev.devopsawschinni.online", type = "String" },
     { name = "roboshop.dev.cart.catalogue_port", value = "80", type = "String" },
-
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
-
     { name = "roboshop.dev.payment.cart_host", value = "cart-dev.devopsawschinni.online", type = "String" },
     { name = "roboshop.dev.payment.cart_port", value = "80", type = "String" },
     { name = "roboshop.dev.payment.user_host", value = "user-dev.devopsawschinni.online", type = "String" },
