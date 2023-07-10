@@ -4,6 +4,8 @@ resource "aws_ssm_parameter" "params" {
   description = "Example parameter"
   type        = var.params[count.index].type
   value       = var.params[count.index].value
+  overwrite = true
+  kms_id    = "9bd896cf-ebab-4908-95af-8aa0d7800a5f"
  }
 
 /*variable "params" {
